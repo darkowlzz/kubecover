@@ -1,0 +1,7 @@
+apiVersion: kuttl.dev/v1beta1
+kind: TestStep
+metadata:
+  name: kubectl-create-step
+commands:
+  - command: kubectl create configmap empty-cm
+    namespaced: true

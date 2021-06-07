@@ -1,0 +1,2 @@
+resources:
+  - apply-configmap-step.yaml

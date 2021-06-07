@@ -1,0 +1,5 @@
+resources:
+  - ../base
+
+patches:
+  - patch-configmap.yaml
